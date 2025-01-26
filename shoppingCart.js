@@ -1,7 +1,12 @@
 //Exporting modules
 console.log('Exporting module');
 
-const shoppingCart = 10;
+// //Blocking code
+// console.log('Start fetchng users');
+// await fetch(`https://jsonplaceholder.typicode.com/users`);
+// console.log(`finished fetching`);
+
+const shippingCost = 10;
 export const cart = [];
 
 export const addToCart = function (product, quantity) {
