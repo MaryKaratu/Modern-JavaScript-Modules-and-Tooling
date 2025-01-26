@@ -1,7 +1,7 @@
 // //Importing module
 // // import { addToCart, totalPrice as price, tq } from './shoppingCart.js';
 
-import { cart } from "./shoppingCart"
+import { cart } from './shoppingCart';
 
 // import shoppingCart from './shoppingCart';
 
@@ -88,10 +88,13 @@ import { cart } from "./shoppingCart"
 //////////////////////////////
 //Common Modules
 //Export
-export.addToCart = function(product, quantity){
-  cart.push({product, quantity});
-  console.log(`${quantity} ${product} added to cart (sipping cost is ${shippingCost})`
-  );
-}
+// export.addToCart = function(product, quantity){
+//   cart.push({product, quantity});
+//   console.log(`${quantity} ${product} added to cart (sipping cost is ${shippingCost})`
+//   );
+// }
 
-//Import
+//Import Pattern
+// const { addToCart } = require("./shoppingCart");
+
+/////////////////////////////////////////////////
